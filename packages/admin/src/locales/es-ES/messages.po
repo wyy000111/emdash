@@ -950,6 +950,10 @@ msgstr "Autorizar dispositivo"
 msgid "Authorizing..."
 msgstr "Autorizando..."
 
+#: packages/admin/src/components/RegistryPluginDetail.tsx:346
+msgid "Authors"
+msgstr ""
+
 #: packages/admin/src/components/Redirects.tsx:495
 msgid "auto"
 msgstr "auto"
@@ -1014,7 +1018,7 @@ msgstr "Volver a iniciar sesión"
 msgid "Back to marketplace"
 msgstr "Volver al mercado"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:347
+#: packages/admin/src/components/RegistryPluginDetail.tsx:447
 msgid "Back to plugins"
 msgstr ""
 
@@ -1840,7 +1844,7 @@ msgstr "Formato de fecha"
 msgid "Decimal number"
 msgstr "numero decimal"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:311
+#: packages/admin/src/components/RegistryPluginDetail.tsx:411
 msgid "Declared permissions"
 msgstr ""
 
@@ -2815,7 +2819,7 @@ msgid "Failed to import media"
 msgstr "Error al importar los medios"
 
 #: packages/admin/src/lib/api/marketplace.ts:160
-#: packages/admin/src/lib/api/registry.ts:466
+#: packages/admin/src/lib/api/registry.ts:439
 msgid "Failed to install plugin"
 msgstr "Error al instalar el plugin"
 
@@ -3391,7 +3395,7 @@ msgid "Incompatible"
 msgstr "Incompatible"
 
 #. placeholder {0}: formatDate(release.indexedAt)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:241
+#: packages/admin/src/components/RegistryPluginDetail.tsx:263
 msgid "indexed {0}"
 msgstr ""
 
@@ -3458,7 +3462,7 @@ msgid "Instagram"
 msgstr "Instagram"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:193
-#: packages/admin/src/components/RegistryPluginDetail.tsx:256
+#: packages/admin/src/components/RegistryPluginDetail.tsx:278
 msgid "Install"
 msgstr "Instalar"
 
@@ -3472,8 +3476,8 @@ msgstr "Instalar bloqueado"
 
 #: packages/admin/src/components/MarketplaceBrowse.tsx:261
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:174
-#: packages/admin/src/components/RegistryBrowse.tsx:194
-#: packages/admin/src/components/RegistryPluginDetail.tsx:248
+#: packages/admin/src/components/RegistryBrowse.tsx:198
+#: packages/admin/src/components/RegistryPluginDetail.tsx:270
 msgid "Installed"
 msgstr "Instalado"
 
@@ -4782,7 +4786,7 @@ msgstr "Error de plugin ({0})"
 msgid "Plugin not found"
 msgstr "Plugin no encontrado"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:210
+#: packages/admin/src/components/RegistryPluginDetail.tsx:232
 msgid "Plugin not found. The publisher handle or slug may be incorrect."
 msgstr ""
 
@@ -4909,7 +4913,7 @@ msgstr "Publicado {0}"
 msgid "Published At"
 msgstr "Publicado en"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:236
+#: packages/admin/src/components/RegistryPluginDetail.tsx:258
 msgid "Published by"
 msgstr ""
 
@@ -5031,7 +5035,7 @@ msgstr "El registro fue cancelado o agotado. Por favor inténtalo de nuevo."
 msgid "Registry"
 msgstr ""
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:295
+#: packages/admin/src/components/RegistryPluginDetail.tsx:317
 msgid "Release is too new to install"
 msgstr ""
 
@@ -5621,6 +5625,10 @@ msgstr "La auditoría de seguridad marcó este plugin como potencialmente insegu
 #: packages/admin/src/components/MarketplaceBrowse.tsx:319
 msgid "Security audit passed"
 msgstr "Auditoría de seguridad superada"
+
+#: packages/admin/src/components/RegistryPluginDetail.tsx:379
+msgid "Security contacts"
+msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:272
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:275
@@ -6296,7 +6304,7 @@ msgstr "Esta Passkey ya está registrada en este dispositivo."
 msgid "This plugin requires no special permissions."
 msgstr "Este plugin no requiere permisos especiales."
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:281
+#: packages/admin/src/components/RegistryPluginDetail.tsx:303
 msgid "This publisher claims a name they couldn't prove they own — possibly impersonating someone else. Install is disabled. If you know the publisher and trust them, ask them to fix their identity setup before retrying."
 msgstr ""
 
@@ -6887,8 +6895,8 @@ msgstr "v{0} disponible"
 msgid "Validation"
 msgstr "Validación"
 
-#: packages/admin/src/components/RegistryBrowse.tsx:183
-#: packages/admin/src/components/RegistryPluginDetail.tsx:231
+#: packages/admin/src/components/RegistryBrowse.tsx:186
+#: packages/admin/src/components/RegistryPluginDetail.tsx:253
 msgid "Verified publisher"
 msgstr ""
 
@@ -6910,7 +6918,7 @@ msgid "Version"
 msgstr "Versión"
 
 #. placeholder {0}: release.version
-#: packages/admin/src/components/RegistryPluginDetail.tsx:241
+#: packages/admin/src/components/RegistryPluginDetail.tsx:263
 msgid "Version {0}"
 msgstr ""
 
@@ -6938,6 +6946,14 @@ msgstr "Ver publicado {title}"
 msgid "View Site"
 msgstr "Ver sitio"
 
+#: packages/admin/src/components/RegistryPluginDetail.tsx:337
+msgid "View source"
+msgstr ""
+
+#: packages/admin/src/components/RegistryPluginDetail.tsx:538
+msgid "View the {license} license on spdx.org"
+msgstr ""
+
 #: packages/admin/src/components/Redirects.tsx:422
 msgid "Visitors hitting these paths will see an error."
 msgstr "Los visitantes que lleguen a estos caminos verán un error."
@@ -6956,7 +6972,7 @@ msgstr "Advertir"
 msgid "We couldn't connect to a WordPress site at {0}. This could mean the site isn't WordPress, the REST API is disabled, or the site isn't accessible."
 msgstr "No pudimos conectarnos a un sitio de WordPress en {0}. Esto podría significar que el sitio no es WordPress, que la API REST está deshabilitada o que no se puede acceder al sitio."
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:279
+#: packages/admin/src/components/RegistryPluginDetail.tsx:301
 msgid "We couldn't verify this publisher's identity"
 msgstr ""
 
@@ -6982,6 +6998,7 @@ msgid "WebAuthn is not supported in this browser"
 msgstr "WebAuthn no es compatible con este navegador"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:226
+#: packages/admin/src/components/RegistryPluginDetail.tsx:362
 msgid "Website"
 msgstr "Sitio web"
 
@@ -7213,7 +7230,7 @@ msgid "Your Role"
 msgstr "Tu papel"
 
 #. placeholder {0}: formatHoldback(config.policy?.minimumReleaseAgeSeconds ?? 0)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:297
+#: packages/admin/src/components/RegistryPluginDetail.tsx:319
 msgid "Your site requires releases to be at least {0} old before they can be installed. This release will become installable later."
 msgstr ""
 

@@ -950,6 +950,10 @@ msgstr "授權設備"
 msgid "Authorizing..."
 msgstr "授權中..."
 
+#: packages/admin/src/components/RegistryPluginDetail.tsx:346
+msgid "Authors"
+msgstr ""
+
 #: packages/admin/src/components/Redirects.tsx:495
 msgid "auto"
 msgstr "自動"
@@ -1014,7 +1018,7 @@ msgstr "返回登錄"
 msgid "Back to marketplace"
 msgstr "返回市場"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:347
+#: packages/admin/src/components/RegistryPluginDetail.tsx:447
 msgid "Back to plugins"
 msgstr ""
 
@@ -1840,7 +1844,7 @@ msgstr "日期格式"
 msgid "Decimal number"
 msgstr "十進制數字"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:311
+#: packages/admin/src/components/RegistryPluginDetail.tsx:411
 msgid "Declared permissions"
 msgstr ""
 
@@ -2815,7 +2819,7 @@ msgid "Failed to import media"
 msgstr ""
 
 #: packages/admin/src/lib/api/marketplace.ts:160
-#: packages/admin/src/lib/api/registry.ts:466
+#: packages/admin/src/lib/api/registry.ts:439
 msgid "Failed to install plugin"
 msgstr ""
 
@@ -3391,7 +3395,7 @@ msgid "Incompatible"
 msgstr "不兼容"
 
 #. placeholder {0}: formatDate(release.indexedAt)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:241
+#: packages/admin/src/components/RegistryPluginDetail.tsx:263
 msgid "indexed {0}"
 msgstr ""
 
@@ -3458,7 +3462,7 @@ msgid "Instagram"
 msgstr "Instagram"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:193
-#: packages/admin/src/components/RegistryPluginDetail.tsx:256
+#: packages/admin/src/components/RegistryPluginDetail.tsx:278
 msgid "Install"
 msgstr "安裝"
 
@@ -3472,8 +3476,8 @@ msgstr "安裝被阻止"
 
 #: packages/admin/src/components/MarketplaceBrowse.tsx:261
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:174
-#: packages/admin/src/components/RegistryBrowse.tsx:194
-#: packages/admin/src/components/RegistryPluginDetail.tsx:248
+#: packages/admin/src/components/RegistryBrowse.tsx:198
+#: packages/admin/src/components/RegistryPluginDetail.tsx:270
 msgid "Installed"
 msgstr "已安裝"
 
@@ -4779,7 +4783,7 @@ msgstr ""
 msgid "Plugin not found"
 msgstr "未找到插件"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:210
+#: packages/admin/src/components/RegistryPluginDetail.tsx:232
 msgid "Plugin not found. The publisher handle or slug may be incorrect."
 msgstr ""
 
@@ -4906,7 +4910,7 @@ msgstr "發佈於 {0}"
 msgid "Published At"
 msgstr "發佈時間"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:236
+#: packages/admin/src/components/RegistryPluginDetail.tsx:258
 msgid "Published by"
 msgstr ""
 
@@ -5028,7 +5032,7 @@ msgstr "註冊已取消或超時。請重試。"
 msgid "Registry"
 msgstr ""
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:295
+#: packages/admin/src/components/RegistryPluginDetail.tsx:317
 msgid "Release is too new to install"
 msgstr ""
 
@@ -5618,6 +5622,10 @@ msgstr "安全審計標記此插件爲可能不安全。"
 #: packages/admin/src/components/MarketplaceBrowse.tsx:319
 msgid "Security audit passed"
 msgstr "安全審計通過"
+
+#: packages/admin/src/components/RegistryPluginDetail.tsx:379
+msgid "Security contacts"
+msgstr ""
 
 #: packages/admin/src/components/auth/PasskeyLogin.tsx:272
 #: packages/admin/src/components/auth/PasskeyRegistration.tsx:275
@@ -6293,7 +6301,7 @@ msgstr "此通行密鑰已在此設備上註冊。"
 msgid "This plugin requires no special permissions."
 msgstr "此插件不需要特殊權限。"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:281
+#: packages/admin/src/components/RegistryPluginDetail.tsx:303
 msgid "This publisher claims a name they couldn't prove they own — possibly impersonating someone else. Install is disabled. If you know the publisher and trust them, ask them to fix their identity setup before retrying."
 msgstr ""
 
@@ -6884,8 +6892,8 @@ msgstr "v{0} 可用"
 msgid "Validation"
 msgstr "驗證"
 
-#: packages/admin/src/components/RegistryBrowse.tsx:183
-#: packages/admin/src/components/RegistryPluginDetail.tsx:231
+#: packages/admin/src/components/RegistryBrowse.tsx:186
+#: packages/admin/src/components/RegistryPluginDetail.tsx:253
 msgid "Verified publisher"
 msgstr ""
 
@@ -6907,7 +6915,7 @@ msgid "Version"
 msgstr "版本"
 
 #. placeholder {0}: release.version
-#: packages/admin/src/components/RegistryPluginDetail.tsx:241
+#: packages/admin/src/components/RegistryPluginDetail.tsx:263
 msgid "Version {0}"
 msgstr ""
 
@@ -6935,6 +6943,14 @@ msgstr "查看已發佈的 {title}"
 msgid "View Site"
 msgstr "查看站點"
 
+#: packages/admin/src/components/RegistryPluginDetail.tsx:337
+msgid "View source"
+msgstr ""
+
+#: packages/admin/src/components/RegistryPluginDetail.tsx:538
+msgid "View the {license} license on spdx.org"
+msgstr ""
+
 #: packages/admin/src/components/Redirects.tsx:422
 msgid "Visitors hitting these paths will see an error."
 msgstr "訪問這些路徑的訪問者將看到錯誤。"
@@ -6953,7 +6969,7 @@ msgstr "警告"
 msgid "We couldn't connect to a WordPress site at {0}. This could mean the site isn't WordPress, the REST API is disabled, or the site isn't accessible."
 msgstr "我們無法連接到位於 {0} 的 WordPress 站點。這可能意味着該站點不是 WordPress、REST API 被禁用或站點無法訪問。"
 
-#: packages/admin/src/components/RegistryPluginDetail.tsx:279
+#: packages/admin/src/components/RegistryPluginDetail.tsx:301
 msgid "We couldn't verify this publisher's identity"
 msgstr ""
 
@@ -6979,6 +6995,7 @@ msgid "WebAuthn is not supported in this browser"
 msgstr "此瀏覽器不支持 WebAuthn"
 
 #: packages/admin/src/components/MarketplacePluginDetail.tsx:226
+#: packages/admin/src/components/RegistryPluginDetail.tsx:362
 msgid "Website"
 msgstr "網站"
 
@@ -7210,7 +7227,7 @@ msgid "Your Role"
 msgstr "您的角色"
 
 #. placeholder {0}: formatHoldback(config.policy?.minimumReleaseAgeSeconds ?? 0)
-#: packages/admin/src/components/RegistryPluginDetail.tsx:297
+#: packages/admin/src/components/RegistryPluginDetail.tsx:319
 msgid "Your site requires releases to be at least {0} old before they can be installed. This release will become installable later."
 msgstr ""
 
