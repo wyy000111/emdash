@@ -4580,7 +4580,10 @@ msgid ""
 "Option 1\n"
 "Option 2\n"
 "Option 3"
-msgstr "الخيار 1\nالخيار 2\nالخيار 3"
+msgstr ""
+"الخيار 1\n"
+"الخيار 2\n"
+"الخيار 3"
 
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:309
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:474
