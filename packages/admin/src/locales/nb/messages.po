@@ -74,7 +74,7 @@ msgstr "(med din dev-port)."
 #. placeholder {0}: items.length
 #. placeholder {0}: orphan.rowCount
 #: packages/admin/src/components/ContentTypeList.tsx:69
-#: packages/admin/src/components/RepeaterField.tsx:147
+#: packages/admin/src/components/RepeaterField.tsx:152
 msgid "{0, plural, one {(# item)} other {(# items)}}"
 msgstr "{0, plural, one {(# oppføring)} other {(# oppføringer)}}"
 
@@ -539,7 +539,7 @@ msgid "Active"
 msgstr "Aktiv"
 
 #: packages/admin/src/components/AllowedTypesEditor.tsx:171
-#: packages/admin/src/components/ContentEditor.tsx:2092
+#: packages/admin/src/components/ContentEditor.tsx:1919
 #: packages/admin/src/components/MenuEditor.tsx:362
 #: packages/admin/src/components/TaxonomySidebar.tsx:476
 msgid "Add"
@@ -595,7 +595,7 @@ msgstr "Legg til domene"
 
 #: packages/admin/src/components/ContentTypeEditor.tsx:582
 #: packages/admin/src/components/FieldEditor.tsx:342
-#: packages/admin/src/components/FieldEditor.tsx:659
+#: packages/admin/src/components/FieldEditor.tsx:660
 msgid "Add Field"
 msgstr "Legg til felt"
 
@@ -615,7 +615,7 @@ msgstr "Legg til felt for å definere strukturen på innholdet ditt"
 msgid "Add First Field"
 msgstr "Legg til første felt"
 
-#: packages/admin/src/components/RepeaterField.tsx:169
+#: packages/admin/src/components/RepeaterField.tsx:174
 msgid "Add First Item"
 msgstr "Legg til første element"
 
@@ -623,7 +623,7 @@ msgstr "Legg til første element"
 msgid "Add item"
 msgstr "Legg til element"
 
-#: packages/admin/src/components/RepeaterField.tsx:153
+#: packages/admin/src/components/RepeaterField.tsx:158
 msgid "Add Item"
 msgstr "Legg til element"
 
@@ -1038,7 +1038,7 @@ msgstr "Generert automatisk fra navn (du kan redigere)"
 msgid "Autosave failed"
 msgstr "Autolagring mislyktes"
 
-#: packages/admin/src/components/ContentEditor.tsx:645
+#: packages/admin/src/components/ContentEditor.tsx:644
 msgid "Autosave status"
 msgstr "Status for autolagring"
 
@@ -1061,7 +1061,7 @@ msgstr "Tilgjengelige widgeter"
 msgid "Back"
 msgstr "Tilbake"
 
-#: packages/admin/src/components/ContentEditor.tsx:614
+#: packages/admin/src/components/ContentEditor.tsx:613
 msgid "Back to {collectionLabel} list"
 msgstr "Tilbake til {collectionLabel}-listen"
 
@@ -1163,7 +1163,7 @@ msgstr "Punktliste"
 msgid "Byline schema"
 msgstr "Byline-skjema"
 
-#: packages/admin/src/components/ContentEditor.tsx:998
+#: packages/admin/src/components/ContentEditor.tsx:997
 #: packages/admin/src/components/Sidebar.tsx:363
 #: packages/admin/src/routes/bylines.tsx:362
 msgid "Bylines"
@@ -1188,11 +1188,11 @@ msgstr "Kan vise innhold"
 #: packages/admin/src/components/BylineFieldEditor.tsx:315
 #: packages/admin/src/components/CapabilityConsentDialog.tsx:161
 #: packages/admin/src/components/ConfirmDialog.tsx:57
-#: packages/admin/src/components/ContentEditor.tsx:707
-#: packages/admin/src/components/ContentEditor.tsx:912
-#: packages/admin/src/components/ContentEditor.tsx:964
-#: packages/admin/src/components/ContentEditor.tsx:2206
-#: packages/admin/src/components/ContentEditor.tsx:2259
+#: packages/admin/src/components/ContentEditor.tsx:706
+#: packages/admin/src/components/ContentEditor.tsx:911
+#: packages/admin/src/components/ContentEditor.tsx:963
+#: packages/admin/src/components/ContentEditor.tsx:2033
+#: packages/admin/src/components/ContentEditor.tsx:2086
 #: packages/admin/src/components/ContentList.tsx:851
 #: packages/admin/src/components/ContentList.tsx:922
 #: packages/admin/src/components/ContentPickerModal.tsx:248
@@ -1202,7 +1202,7 @@ msgstr "Kan vise innhold"
 #: packages/admin/src/components/editor/ImageNode.tsx:223
 #: packages/admin/src/components/editor/ImageNode.tsx:224
 #: packages/admin/src/components/editor/PluginBlockNode.tsx:406
-#: packages/admin/src/components/FieldEditor.tsx:648
+#: packages/admin/src/components/FieldEditor.tsx:649
 #: packages/admin/src/components/MediaDetailPanel.tsx:234
 #: packages/admin/src/components/MediaPickerModal.tsx:739
 #: packages/admin/src/components/MenuEditor.tsx:359
@@ -1276,10 +1276,10 @@ msgstr "Kategorier ({0})"
 
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:76
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:107
-#: packages/admin/src/components/ContentEditor.tsx:1673
-#: packages/admin/src/components/ContentEditor.tsx:1702
-#: packages/admin/src/components/ContentEditor.tsx:1876
+#: packages/admin/src/components/ContentEditor.tsx:1703
 #: packages/admin/src/components/FieldEditor.tsx:402
+#: packages/admin/src/components/ImageFieldRenderer.tsx:113
+#: packages/admin/src/components/ImageFieldRenderer.tsx:142
 #: packages/admin/src/components/SeoImageField.tsx:47
 msgid "Change"
 msgstr "Endre"
@@ -1684,7 +1684,7 @@ msgstr "Kunne ikke laste egendefinerte felt."
 msgid "Couldn't map \"{draft}\" to a MIME type. Type the MIME directly."
 msgstr "Kunne ikke knytte «{draft}» til en MIME-type. Skriv inn MIME-typen direkte."
 
-#: packages/admin/src/components/ContentEditor.tsx:2098
+#: packages/admin/src/components/ContentEditor.tsx:1925
 msgid "Couldn't search bylines. Please try again."
 msgstr "Kunne ikke søke i bylines. Prøv på nytt."
 
@@ -1697,7 +1697,7 @@ msgstr "Kunne ikke bekrefte hvor mange verdier som refererer til «{0}». Sletti
 msgid "Count"
 msgstr "Antall"
 
-#: packages/admin/src/components/ContentEditor.tsx:2230
+#: packages/admin/src/components/ContentEditor.tsx:2057
 #: packages/admin/src/components/MenuList.tsx:175
 #: packages/admin/src/components/Redirects.tsx:184
 #: packages/admin/src/components/Sections.tsx:212
@@ -1733,7 +1733,7 @@ msgstr "Opprett konto"
 msgid "Create an account"
 msgstr "Opprett en konto"
 
-#: packages/admin/src/components/ContentEditor.tsx:2178
+#: packages/admin/src/components/ContentEditor.tsx:2005
 #: packages/admin/src/routes/bylines.tsx:463
 msgid "Create byline"
 msgstr "Opprett byline"
@@ -1878,7 +1878,7 @@ msgid "Created At"
 msgstr "Opprettet"
 
 #. placeholder {0}: new Date(item.createdAt).toLocaleString()
-#: packages/admin/src/components/ContentEditor.tsx:932
+#: packages/admin/src/components/ContentEditor.tsx:931
 msgid "Created: {0}"
 msgstr "Opprettet: {0}"
 
@@ -1886,7 +1886,7 @@ msgstr "Opprettet: {0}"
 msgid "Creating collections and fields..."
 msgstr "Oppretter samlinger og felter …"
 
-#: packages/admin/src/components/ContentEditor.tsx:2230
+#: packages/admin/src/components/ContentEditor.tsx:2057
 #: packages/admin/src/components/MenuList.tsx:175
 #: packages/admin/src/components/Redirects.tsx:181
 #: packages/admin/src/components/Sections.tsx:212
@@ -2296,12 +2296,12 @@ msgstr "Deaktivering av <0>{0}</0> hindrer dem i å logge inn til de aktiveres p
 msgid "Disabling..."
 msgstr "Deaktiverer …"
 
-#: packages/admin/src/components/ContentEditor.tsx:692
-#: packages/admin/src/components/ContentEditor.tsx:714
+#: packages/admin/src/components/ContentEditor.tsx:691
+#: packages/admin/src/components/ContentEditor.tsx:713
 msgid "Discard changes"
 msgstr "Forkast endringer"
 
-#: packages/admin/src/components/ContentEditor.tsx:698
+#: packages/admin/src/components/ContentEditor.tsx:697
 msgid "Discard draft changes?"
 msgstr "Forkaste kladdendringer?"
 
@@ -2314,8 +2314,8 @@ msgstr "Lukk"
 msgid "Display a navigation menu"
 msgstr "Vis en navigasjonsmeny"
 
-#: packages/admin/src/components/ContentEditor.tsx:2181
-#: packages/admin/src/components/ContentEditor.tsx:2243
+#: packages/admin/src/components/ContentEditor.tsx:2008
+#: packages/admin/src/components/ContentEditor.tsx:2070
 #: packages/admin/src/routes/bylines.tsx:468
 msgid "Display name"
 msgstr "Visningsnavn"
@@ -2334,7 +2334,7 @@ msgstr "Visningsstørrelse"
 msgid "Displayed below the image as a visible caption."
 msgstr "Vises under bildet som en synlig bildetekst."
 
-#: packages/admin/src/components/ContentEditor.tsx:668
+#: packages/admin/src/components/ContentEditor.tsx:667
 msgid "Distraction-free mode (⌘⇧\\)"
 msgstr "Distraksjonsfri modus (⌘⇧\\)"
 
@@ -2372,7 +2372,7 @@ msgstr "Har du ikke en konto? <0>Registrer deg</0>"
 msgid "Done"
 msgstr "Ferdig"
 
-#: packages/admin/src/components/ContentEditor.tsx:2124
+#: packages/admin/src/components/ContentEditor.tsx:1951
 msgid "Down"
 msgstr "Ned"
 
@@ -2388,7 +2388,7 @@ msgstr "Laster ned"
 msgid "draft"
 msgstr "kladd"
 
-#: packages/admin/src/components/ContentEditor.tsx:863
+#: packages/admin/src/components/ContentEditor.tsx:862
 #: packages/admin/src/components/ContentList.tsx:544
 #: packages/admin/src/components/ContentPickerModal.tsx:212
 msgid "Draft"
@@ -2466,7 +2466,7 @@ msgstr "f.eks. CI/CD-pipeline"
 msgid "e.g., MacBook Pro, iPhone"
 msgstr "f.eks. MacBook Pro, iPhone"
 
-#: packages/admin/src/components/ContentEditor.tsx:2133
+#: packages/admin/src/components/ContentEditor.tsx:1960
 #: packages/admin/src/components/editor/PluginBlockNode.tsx:367
 #: packages/admin/src/components/editor/PluginBlockNode.tsx:368
 #: packages/admin/src/components/MenuEditor.tsx:458
@@ -2494,7 +2494,7 @@ msgstr "Rediger {0}"
 msgid "Edit {0} field"
 msgstr "Rediger feltet {0}"
 
-#: packages/admin/src/components/ContentEditor.tsx:631
+#: packages/admin/src/components/ContentEditor.tsx:630
 msgid "Edit {collectionLabel}"
 msgstr "Rediger {collectionLabel}"
 
@@ -2502,7 +2502,7 @@ msgstr "Rediger {collectionLabel}"
 msgid "Edit {title}"
 msgstr "Rediger {title}"
 
-#: packages/admin/src/components/ContentEditor.tsx:2240
+#: packages/admin/src/components/ContentEditor.tsx:2067
 msgid "Edit byline"
 msgstr "Rediger byline"
 
@@ -2653,7 +2653,7 @@ msgid "Enabled"
 msgstr "Aktivert"
 
 #. placeholder {0}: label.toLowerCase()
-#: packages/admin/src/components/ContentEditor.tsx:1234
+#: packages/admin/src/components/ContentEditor.tsx:1233
 msgid "Enter {0}..."
 msgstr "Skriv inn {0}..."
 
@@ -2662,7 +2662,7 @@ msgstr "Skriv inn {0}..."
 msgid "Enter a URL (https://…) or a relative path (/…)"
 msgstr "Skriv inn en URL (https://…) eller en relativ sti (/…)"
 
-#: packages/admin/src/components/ContentEditor.tsx:1482
+#: packages/admin/src/components/ContentEditor.tsx:1481
 msgid "Enter a valid URL (e.g. https://example.com)"
 msgstr "Skriv inn en gyldig URL (f.eks. https://example.com)"
 
@@ -2670,7 +2670,7 @@ msgstr "Skriv inn en gyldig URL (f.eks. https://example.com)"
 msgid "Enter credentials manually"
 msgstr "Skriv inn legitimasjon manuelt"
 
-#: packages/admin/src/components/ContentEditor.tsx:667
+#: packages/admin/src/components/ContentEditor.tsx:666
 msgid "Enter distraction-free mode"
 msgstr "Gå inn i distraksjonsfri modus"
 
@@ -2682,7 +2682,7 @@ msgstr "Skriv inn e-post"
 msgid "Enter HTML..."
 msgstr "Skriv inn HTML..."
 
-#: packages/admin/src/components/ContentEditor.tsx:1256
+#: packages/admin/src/components/ContentEditor.tsx:1255
 msgid "Enter markdown content..."
 msgstr "Skriv inn markdown-innhold..."
 
@@ -2744,7 +2744,7 @@ msgstr "Alle publiserte utgivelser av denne utvidelsen er trukket tilbake eller 
 msgid "Exists"
 msgstr "Finnes"
 
-#: packages/admin/src/components/ContentEditor.tsx:625
+#: packages/admin/src/components/ContentEditor.tsx:624
 msgid "Exit distraction-free mode"
 msgstr "Avslutt distraksjonsfri modus"
 
@@ -2809,7 +2809,7 @@ msgstr "Kunne ikke kommunisere med utvidelsen"
 msgid "Failed to create admin"
 msgstr "Kunne ikke opprette administrator"
 
-#: packages/admin/src/components/ContentEditor.tsx:2224
+#: packages/admin/src/components/ContentEditor.tsx:2051
 msgid "Failed to create byline"
 msgstr "Kunne ikke opprette byline"
 
@@ -3197,7 +3197,7 @@ msgstr "Kunne ikke oppheve planlegging"
 msgid "Failed to update {0}"
 msgstr "Kunne ikke oppdatere {0}"
 
-#: packages/admin/src/components/ContentEditor.tsx:2274
+#: packages/admin/src/components/ContentEditor.tsx:2101
 msgid "Failed to update byline"
 msgstr "Kunne ikke oppdatere byline"
 
@@ -3520,6 +3520,7 @@ msgid "If an account exists for <0>{email}</0>, we've sent a sign-in link."
 msgstr "Hvis det finnes en konto for <0>{email}</0>, har vi sendt en innloggingslenke."
 
 #: packages/admin/src/components/FieldEditor.tsx:204
+#: packages/admin/src/components/FieldEditor.tsx:587
 #: packages/admin/src/components/PortableTextEditor.tsx:2115
 msgid "Image"
 msgstr "Bilde"
@@ -3529,7 +3530,7 @@ msgid "Image from media library"
 msgstr "Bilde fra mediebibliotek"
 
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:67
-#: packages/admin/src/components/ContentEditor.tsx:1664
+#: packages/admin/src/components/ImageFieldRenderer.tsx:104
 msgid "Image not found"
 msgstr "Fant ikke bildet"
 
@@ -3767,7 +3768,7 @@ msgstr "Heltall"
 msgid "Invalid invite link"
 msgstr "Ugyldig invitasjonslenke"
 
-#: packages/admin/src/components/ContentEditor.tsx:1551
+#: packages/admin/src/components/ContentEditor.tsx:1550
 msgid "Invalid JSON"
 msgstr "Ugyldig JSON"
 
@@ -3803,7 +3804,7 @@ msgstr "Kursiv"
 
 #. placeholder {0}: index + 1
 #: packages/admin/src/components/PortableTextEditor.tsx:1778
-#: packages/admin/src/components/RepeaterField.tsx:234
+#: packages/admin/src/components/RepeaterField.tsx:239
 msgid "Item {0}"
 msgstr "Element {0}"
 
@@ -3836,7 +3837,7 @@ msgstr "job_title"
 msgid "JSON"
 msgstr "JSON"
 
-#: packages/admin/src/components/ContentEditor.tsx:2103
+#: packages/admin/src/components/ContentEditor.tsx:1930
 msgid "Keep typing to narrow down more bylines."
 msgstr "Fortsett å skrive for å begrense bylinene ytterligere."
 
@@ -3967,7 +3968,7 @@ msgstr "Lenker"
 msgid "List view"
 msgstr "Listevisning"
 
-#: packages/admin/src/components/ContentEditor.tsx:746
+#: packages/admin/src/components/ContentEditor.tsx:745
 msgid "Live View"
 msgstr "Live-visning"
 
@@ -4142,7 +4143,7 @@ msgstr "Administrer"
 msgid "Manage {0} for {1}"
 msgstr "Administrer {0} for {1}"
 
-#: packages/admin/src/components/ContentEditor.tsx:2066
+#: packages/admin/src/components/ContentEditor.tsx:1893
 msgid "Manage bylines in {entryLocale}"
 msgstr "Administrer bylinjer i {entryLocale}"
 
@@ -4194,7 +4195,7 @@ msgstr "markedsplass"
 msgid "Marketplace"
 msgstr "Markedsplass"
 
-#: packages/admin/src/components/FieldEditor.tsx:626
+#: packages/admin/src/components/FieldEditor.tsx:627
 msgid "Max Items"
 msgstr "Maks antall"
 
@@ -4326,7 +4327,7 @@ msgstr "Metatagg-innhold for verifisering med Google Search Console"
 msgid "Meta titles, descriptions, and social images"
 msgstr "Metatitler, beskrivelser og sosiale bilder"
 
-#: packages/admin/src/components/FieldEditor.tsx:619
+#: packages/admin/src/components/FieldEditor.tsx:620
 msgid "Min Items"
 msgstr "Min. antall"
 
@@ -4380,13 +4381,13 @@ msgstr "Flytt {title} til papirkurven"
 msgid "Move down"
 msgstr "Flytt ned"
 
-#: packages/admin/src/components/ContentEditor.tsx:949
-#: packages/admin/src/components/ContentEditor.tsx:971
+#: packages/admin/src/components/ContentEditor.tsx:948
+#: packages/admin/src/components/ContentEditor.tsx:970
 #: packages/admin/src/components/ContentList.tsx:858
 msgid "Move to Trash"
 msgstr "Flytt til papirkurven"
 
-#: packages/admin/src/components/ContentEditor.tsx:955
+#: packages/admin/src/components/ContentEditor.tsx:954
 #: packages/admin/src/components/ContentList.tsx:843
 msgid "Move to Trash?"
 msgstr "Flytte til papirkurven?"
@@ -4457,7 +4458,7 @@ msgstr "NY"
 msgid "New {0}"
 msgstr "Ny {0}"
 
-#: packages/admin/src/components/ContentEditor.tsx:631
+#: packages/admin/src/components/ContentEditor.tsx:630
 msgid "New {collectionLabel}"
 msgstr "Ny {collectionLabel}"
 
@@ -4573,7 +4574,7 @@ msgstr "Ingen godkjente kommentarer ennå."
 msgid "No byline fields yet."
 msgstr "Ingen byline-felt ennå."
 
-#: packages/admin/src/components/ContentEditor.tsx:2058
+#: packages/admin/src/components/ContentEditor.tsx:1885
 msgid "No bylines available in {entryLocale}. Create a variant from the Bylines page before crediting one on this entry."
 msgstr "Ingen bylines tilgjengelig på {entryLocale}. Opprett en variant fra Bylines-siden før du krediterer en på denne oppføringen."
 
@@ -4581,7 +4582,7 @@ msgstr "Ingen bylines tilgjengelig på {entryLocale}. Opprett en variant fra Byl
 msgid "No bylines found"
 msgstr "Fant ingen bylines"
 
-#: packages/admin/src/components/ContentEditor.tsx:2165
+#: packages/admin/src/components/ContentEditor.tsx:1992
 msgid "No bylines selected."
 msgstr "Ingen bylines valgt."
 
@@ -4658,11 +4659,11 @@ msgid "No invite token provided"
 msgstr "Ingen invitasjonstoken oppgitt"
 
 #: packages/admin/src/components/PortableTextEditor.tsx:1701
-#: packages/admin/src/components/RepeaterField.tsx:160
+#: packages/admin/src/components/RepeaterField.tsx:165
 msgid "No items yet"
 msgstr "Ingen elementer ennå"
 
-#: packages/admin/src/components/FieldEditor.tsx:630
+#: packages/admin/src/components/FieldEditor.tsx:631
 msgid "No limit"
 msgstr "Ingen grense"
 
@@ -4674,7 +4675,7 @@ msgstr "Ingen tilknyttet bruker"
 msgid "No matches"
 msgstr "Ingen treff"
 
-#: packages/admin/src/components/ContentEditor.tsx:2100
+#: packages/admin/src/components/ContentEditor.tsx:1927
 msgid "No matching bylines."
 msgstr "Ingen samsvarende bylines."
 
@@ -4946,7 +4947,7 @@ msgstr "Disposisjon"
 msgid "Overrides the page title in search engine results"
 msgstr "Overstyrer sidetittelen i søkemotorresultater"
 
-#: packages/admin/src/components/ContentEditor.tsx:986
+#: packages/admin/src/components/ContentEditor.tsx:985
 msgid "Ownership"
 msgstr "Eierskap"
 
@@ -5068,7 +5069,7 @@ msgstr "venter"
 msgid "Pending"
 msgstr "Venter"
 
-#: packages/admin/src/components/ContentEditor.tsx:861
+#: packages/admin/src/components/ContentEditor.tsx:860
 msgid "Pending changes"
 msgstr "Ventende endringer"
 
@@ -5209,7 +5210,7 @@ msgstr "Forbereder nedlasting av filer fra WordPress …"
 msgid "Preparing..."
 msgstr "Forbereder …"
 
-#: packages/admin/src/components/ContentEditor.tsx:681
+#: packages/admin/src/components/ContentEditor.tsx:680
 #: packages/admin/src/components/ContentTypeEditor.tsx:81
 #: packages/admin/src/components/MediaLibrary.tsx:482
 msgid "Preview"
@@ -5219,7 +5220,7 @@ msgstr "Forhåndsvisning"
 msgid "Preview content before publishing"
 msgstr "Forhåndsvis innhold før publisering"
 
-#: packages/admin/src/components/ContentEditor.tsx:681
+#: packages/admin/src/components/ContentEditor.tsx:680
 msgid "Preview draft"
 msgstr "Forhåndsvis kladd"
 
@@ -5244,12 +5245,12 @@ msgstr "Hovednavigasjon"
 msgid "Provider:"
 msgstr "Leverandør:"
 
-#: packages/admin/src/components/ContentEditor.tsx:736
-#: packages/admin/src/components/ContentEditor.tsx:842
+#: packages/admin/src/components/ContentEditor.tsx:735
+#: packages/admin/src/components/ContentEditor.tsx:841
 msgid "Publish"
 msgstr "Publiser"
 
-#: packages/admin/src/components/ContentEditor.tsx:726
+#: packages/admin/src/components/ContentEditor.tsx:725
 msgid "Publish changes"
 msgstr "Publiser endringer"
 
@@ -5257,7 +5258,7 @@ msgstr "Publiser endringer"
 msgid "published"
 msgstr "publisert"
 
-#: packages/admin/src/components/ContentEditor.tsx:857
+#: packages/admin/src/components/ContentEditor.tsx:856
 #: packages/admin/src/components/ContentList.tsx:543
 #: packages/admin/src/components/ContentList.tsx:552
 #: packages/admin/src/components/ContentPickerModal.tsx:209
@@ -5279,7 +5280,7 @@ msgstr "Publisert"
 msgid "Published by"
 msgstr "Publisert av"
 
-#: packages/admin/src/components/ContentEditor.tsx:2173
+#: packages/admin/src/components/ContentEditor.tsx:2000
 msgid "Quick create byline"
 msgstr "Opprett byline raskt"
 
@@ -5403,7 +5404,7 @@ msgstr "Utgivelsen er for ny til å installeres"
 
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:84
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:115
-#: packages/admin/src/components/ContentEditor.tsx:2142
+#: packages/admin/src/components/ContentEditor.tsx:1969
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:177
 #: packages/admin/src/components/PortableTextEditor.tsx:3114
 #: packages/admin/src/components/settings/GeneralSettings.tsx:217
@@ -5425,7 +5426,7 @@ msgstr "Fjern {0}"
 msgid "Remove {entry}"
 msgstr "Fjern {entry}"
 
-#: packages/admin/src/components/ContentEditor.tsx:1884
+#: packages/admin/src/components/ContentEditor.tsx:1711
 msgid "Remove {label}"
 msgstr "Fjern {label}"
 
@@ -5437,8 +5438,8 @@ msgstr "Fjern domene"
 msgid "Remove Domain?"
 msgstr "Fjerne domene?"
 
-#: packages/admin/src/components/ContentEditor.tsx:1681
-#: packages/admin/src/components/ContentEditor.tsx:1710
+#: packages/admin/src/components/ImageFieldRenderer.tsx:121
+#: packages/admin/src/components/ImageFieldRenderer.tsx:150
 #: packages/admin/src/components/SeoImageField.tsx:55
 msgid "Remove image"
 msgstr "Fjern bilde"
@@ -5454,7 +5455,7 @@ msgstr "Fjerne bilde?"
 
 #. placeholder {0}: index + 1
 #: packages/admin/src/components/PortableTextEditor.tsx:1817
-#: packages/admin/src/components/RepeaterField.tsx:270
+#: packages/admin/src/components/RepeaterField.tsx:275
 msgid "Remove item {0}"
 msgstr "Fjern element {0}"
 
@@ -5471,7 +5472,7 @@ msgstr "Fjern passnøkkel"
 msgid "Remove passkey?"
 msgstr "Fjerne passnøkkel?"
 
-#: packages/admin/src/components/FieldEditor.tsx:610
+#: packages/admin/src/components/FieldEditor.tsx:611
 msgid "Remove sub-field"
 msgstr "Fjern underfelt"
 
@@ -5526,7 +5527,7 @@ msgstr "Be om en ny lenke"
 #: packages/admin/src/components/BylineFieldEditor.tsx:280
 #: packages/admin/src/components/ContentTypeEditor.tsx:721
 #: packages/admin/src/components/FieldEditor.tsx:437
-#: packages/admin/src/components/FieldEditor.tsx:592
+#: packages/admin/src/components/FieldEditor.tsx:593
 #: packages/admin/src/routes/byline-schema.tsx:246
 msgid "Required"
 msgstr "Påkrevd"
@@ -5660,7 +5661,7 @@ msgstr "Rolle"
 msgid "Role {role}"
 msgstr "Rolle {role}"
 
-#: packages/admin/src/components/ContentEditor.tsx:2147
+#: packages/admin/src/components/ContentEditor.tsx:1974
 msgid "Role label"
 msgstr "Rolleetikett"
 
@@ -5671,7 +5672,7 @@ msgstr "Rolleetikett"
 msgid "Same window"
 msgstr "Samme vindu"
 
-#: packages/admin/src/components/ContentEditor.tsx:2280
+#: packages/admin/src/components/ContentEditor.tsx:2107
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:349
 #: packages/admin/src/components/editor/ImageDetailPanel.tsx:519
 #: packages/admin/src/components/editor/ImageNode.tsx:235
@@ -5725,7 +5726,7 @@ msgstr "Lagre innstillinger"
 msgid "Save Social Links"
 msgstr "Lagre sosiale lenker"
 
-#: packages/admin/src/components/ContentEditor.tsx:656
+#: packages/admin/src/components/ContentEditor.tsx:655
 #: packages/admin/src/components/SaveButton.tsx:42
 msgid "Saved"
 msgstr "Lagret"
@@ -5735,10 +5736,10 @@ msgstr "Lagret"
 msgid "Saved \"{0}\"."
 msgstr "Lagret \"{0}\"."
 
-#: packages/admin/src/components/ContentEditor.tsx:651
-#: packages/admin/src/components/ContentEditor.tsx:2280
+#: packages/admin/src/components/ContentEditor.tsx:650
+#: packages/admin/src/components/ContentEditor.tsx:2107
 #: packages/admin/src/components/ContentTypeEditor.tsx:560
-#: packages/admin/src/components/FieldEditor.tsx:659
+#: packages/admin/src/components/FieldEditor.tsx:660
 #: packages/admin/src/components/MediaDetailPanel.tsx:241
 #: packages/admin/src/components/MenuEditor.tsx:533
 #: packages/admin/src/components/Redirects.tsx:180
@@ -5769,15 +5770,15 @@ msgstr "SBOM"
 msgid "SBOM · {0}"
 msgstr "SBOM · {0}"
 
-#: packages/admin/src/components/ContentEditor.tsx:901
+#: packages/admin/src/components/ContentEditor.tsx:900
 msgid "Schedule"
 msgstr "Planlegg"
 
-#: packages/admin/src/components/ContentEditor.tsx:887
+#: packages/admin/src/components/ContentEditor.tsx:886
 msgid "Schedule for"
 msgstr "Planlegg til"
 
-#: packages/admin/src/components/ContentEditor.tsx:924
+#: packages/admin/src/components/ContentEditor.tsx:923
 msgid "Schedule for later"
 msgstr "Planlegg for senere"
 
@@ -5785,14 +5786,14 @@ msgstr "Planlegg for senere"
 msgid "scheduled"
 msgstr "planlagt"
 
-#: packages/admin/src/components/ContentEditor.tsx:864
+#: packages/admin/src/components/ContentEditor.tsx:863
 #: packages/admin/src/components/ContentList.tsx:545
 #: packages/admin/src/router.tsx:917
 msgid "Scheduled"
 msgstr "Planlagt"
 
 #. placeholder {0}: formatScheduledDate(item.scheduledAt)
-#: packages/admin/src/components/ContentEditor.tsx:874
+#: packages/admin/src/components/ContentEditor.tsx:873
 msgid "Scheduled for: {0}"
 msgstr "Planlagt til: {0}"
 
@@ -5873,12 +5874,12 @@ msgstr "Søk etter filnavn …"
 msgid "Search by name or email..."
 msgstr "Søk etter navn eller e-post …"
 
-#: packages/admin/src/components/ContentEditor.tsx:2075
+#: packages/admin/src/components/ContentEditor.tsx:1902
 #: packages/admin/src/routes/bylines.tsx:388
 msgid "Search bylines"
 msgstr "Søk i bylines"
 
-#: packages/admin/src/components/ContentEditor.tsx:2074
+#: packages/admin/src/components/ContentEditor.tsx:1901
 msgid "Search bylines to add..."
 msgstr "Søk i bylines for å legge til …"
 
@@ -5952,7 +5953,7 @@ msgstr "Søk …"
 msgid "Searchable"
 msgstr "Søkbar"
 
-#: packages/admin/src/components/ContentEditor.tsx:2078
+#: packages/admin/src/components/ContentEditor.tsx:1905
 msgid "Searching..."
 msgstr "Søker …"
 
@@ -6054,9 +6055,9 @@ msgid "Select"
 msgstr "Velg"
 
 #: packages/admin/src/components/BlockKitMediaPickerField.tsx:140
-#: packages/admin/src/components/ContentEditor.tsx:1738
-#: packages/admin/src/components/ContentEditor.tsx:1896
-#: packages/admin/src/components/ContentEditor.tsx:1912
+#: packages/admin/src/components/ContentEditor.tsx:1723
+#: packages/admin/src/components/ContentEditor.tsx:1739
+#: packages/admin/src/components/ImageFieldRenderer.tsx:178
 msgid "Select {label}"
 msgstr "Velg {label}"
 
@@ -6090,7 +6091,7 @@ msgstr "Velg standard sosialt bilde"
 msgid "Select Favicon"
 msgstr "Velg favicon"
 
-#: packages/admin/src/components/ContentEditor.tsx:1900
+#: packages/admin/src/components/ContentEditor.tsx:1727
 msgid "Select file"
 msgstr "Velg fil"
 
@@ -6098,7 +6099,7 @@ msgstr "Velg fil"
 msgid "Select File"
 msgstr "Velg fil"
 
-#: packages/admin/src/components/ContentEditor.tsx:1726
+#: packages/admin/src/components/ImageFieldRenderer.tsx:166
 msgid "Select image"
 msgstr "Velg bilde"
 
@@ -6132,7 +6133,7 @@ msgstr "Velg hvilke innholdstyper som skal importeres."
 
 #: packages/admin/src/components/BlockKitFieldWidget.tsx:108
 #: packages/admin/src/components/PortableTextEditor.tsx:1912
-#: packages/admin/src/components/RepeaterField.tsx:361
+#: packages/admin/src/components/RepeaterField.tsx:366
 msgid "Select..."
 msgstr "Velg …"
 
@@ -6182,7 +6183,7 @@ msgstr "Send test-e-post"
 msgid "Sending..."
 msgstr "Sender …"
 
-#: packages/admin/src/components/ContentEditor.tsx:1051
+#: packages/admin/src/components/ContentEditor.tsx:1050
 #: packages/admin/src/components/ContentTypeEditor.tsx:474
 #: packages/admin/src/components/Settings.tsx:81
 msgid "SEO"
@@ -6383,9 +6384,9 @@ msgid "Skipped"
 msgstr "Hoppet over"
 
 #: packages/admin/src/components/BylineFieldEditor.tsx:239
-#: packages/admin/src/components/ContentEditor.tsx:845
-#: packages/admin/src/components/ContentEditor.tsx:2189
-#: packages/admin/src/components/ContentEditor.tsx:2251
+#: packages/admin/src/components/ContentEditor.tsx:844
+#: packages/admin/src/components/ContentEditor.tsx:2016
+#: packages/admin/src/components/ContentEditor.tsx:2078
 #: packages/admin/src/components/ContentTypeEditor.tsx:111
 #: packages/admin/src/components/ContentTypeEditor.tsx:404
 #: packages/admin/src/components/ContentTypeList.tsx:97
@@ -6482,7 +6483,7 @@ msgstr "Regneark"
 msgid "Start Import"
 msgstr "Start import"
 
-#: packages/admin/src/components/ContentEditor.tsx:851
+#: packages/admin/src/components/ContentEditor.tsx:850
 #: packages/admin/src/components/ContentList.tsx:328
 #: packages/admin/src/components/ContentTypeEditor.tsx:117
 #: packages/admin/src/components/Redirects.tsx:445
@@ -6703,7 +6704,7 @@ msgid "This field does not accept {sniffedMime} files."
 msgstr "Dette feltet godtar ikke {sniffedMime}-filer."
 
 #: packages/admin/src/components/ContentEditor.tsx:1742
-#: packages/admin/src/components/ContentEditor.tsx:1915
+#: packages/admin/src/components/ImageFieldRenderer.tsx:182
 msgid "This field is required"
 msgstr "Dette feltet er påkrevd"
 
@@ -6767,7 +6768,7 @@ msgstr "Dette sletter widgetområdet og alle widgetene i det. Denne handlingen k
 msgid "This will grant CLI access with your permissions."
 msgstr "Dette gir CLI-tilgang med dine tillatelser."
 
-#: packages/admin/src/components/ContentEditor.tsx:958
+#: packages/admin/src/components/ContentEditor.tsx:957
 msgid "This will move the item to trash. You can restore it later from the trash."
 msgstr "Dette flytter elementet til papirkurven. Du kan gjenopprette det senere fra papirkurven."
 
@@ -6789,7 +6790,7 @@ msgstr "Dette sletter denne kommentaren permanent. Denne handlingen kan ikke ang
 msgid "This will remove the plugin and its bundle from your site."
 msgstr "Dette fjerner utvidelsen og pakken dens fra nettstedet ditt."
 
-#: packages/admin/src/components/ContentEditor.tsx:701
+#: packages/admin/src/components/ContentEditor.tsx:700
 msgid "This will revert to the published version. Your draft changes will be lost."
 msgstr "Dette tilbakestiller til den publiserte versjonen. Kladdeendringene dine går tapt."
 
@@ -6989,8 +6990,8 @@ msgstr "Typen stemmer ikke ({0})"
 msgid "Unable to reach marketplace"
 msgstr "Får ikke kontakt med markedet"
 
-#: packages/admin/src/components/ContentEditor.tsx:2294
-#: packages/admin/src/components/ContentEditor.tsx:2309
+#: packages/admin/src/components/ContentEditor.tsx:2121
+#: packages/admin/src/components/ContentEditor.tsx:2136
 msgid "Unassigned"
 msgstr "Ikke tildelt"
 
@@ -7050,7 +7051,7 @@ msgstr "Lås opp sideforhold"
 msgid "Unnamed passkey"
 msgstr "Tilgangsnøkkel uten navn"
 
-#: packages/admin/src/components/ContentEditor.tsx:730
+#: packages/admin/src/components/ContentEditor.tsx:729
 msgid "Unpublish"
 msgstr "Avpubliser"
 
@@ -7062,7 +7063,7 @@ msgstr "Avpublisert"
 msgid "Unregistered Content Tables Found"
 msgstr "Fant uregistrerte innholdstabeller"
 
-#: packages/admin/src/components/ContentEditor.tsx:876
+#: packages/admin/src/components/ContentEditor.tsx:875
 msgid "Unschedule"
 msgstr "Fjern planlegging"
 
@@ -7079,7 +7080,7 @@ msgstr "Widgetelementtype som ikke støttes: {0}"
 msgid "Untitled"
 msgstr "Uten tittel"
 
-#: packages/admin/src/components/ContentEditor.tsx:1818
+#: packages/admin/src/components/ContentEditor.tsx:1645
 msgid "Untitled file"
 msgstr "Fil uten navn"
 
@@ -7092,7 +7093,7 @@ msgstr "Widget uten navn"
 msgid "Unverified publisher"
 msgstr "Ikke-verifisert utgiver"
 
-#: packages/admin/src/components/ContentEditor.tsx:2121
+#: packages/admin/src/components/ContentEditor.tsx:1948
 msgid "Up"
 msgstr "Opp"
 
@@ -7100,7 +7101,7 @@ msgstr "Opp"
 msgid "Update"
 msgstr "Oppdater"
 
-#: packages/admin/src/components/FieldEditor.tsx:659
+#: packages/admin/src/components/FieldEditor.tsx:660
 msgid "Update Field"
 msgstr "Oppdater felt"
 
@@ -7137,7 +7138,7 @@ msgid "Updated At"
 msgstr "Oppdatert den"
 
 #. placeholder {0}: new Date(item.updatedAt).toLocaleString()
-#: packages/admin/src/components/ContentEditor.tsx:933
+#: packages/admin/src/components/ContentEditor.tsx:932
 msgid "Updated: {0}"
 msgstr "Oppdatert: {0}"
 
@@ -7286,7 +7287,7 @@ msgstr "Brukes som reserve-Open Graph-bilde når en side mangler bilde. Anbefalt
 msgid "Used as the identifier. Lowercase letters, numbers, and underscores only."
 msgstr "Brukes som identifikator. Kun små bokstaver, tall og understreker."
 
-#: packages/admin/src/components/ContentEditor.tsx:1333
+#: packages/admin/src/components/ContentEditor.tsx:1332
 msgid "Used as the main visual for this post on listing pages and at the top of the post"
 msgstr "Brukes som hovedbildet for dette innlegget på listesider og øverst i innlegget"
 
