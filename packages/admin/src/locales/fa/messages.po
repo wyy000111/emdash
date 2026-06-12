@@ -263,7 +263,7 @@ msgid "{0}{1}"
 msgstr "{0}{1}"
 
 #. placeholder {0}: draft.description.length
-#: packages/admin/src/components/SeoPanel.tsx:168
+#: packages/admin/src/components/SeoPanel.tsx:173
 msgid "{0}/160 characters"
 msgstr "{0}/۱۶۰ حرف"
 
@@ -650,7 +650,7 @@ msgstr "افزودن جدید"
 msgid "Add new {0}"
 msgstr "افزودن {0} جدید"
 
-#: packages/admin/src/components/SeoPanel.tsx:192
+#: packages/admin/src/components/SeoPanel.tsx:197
 msgid "Add noindex meta tag"
 msgstr "افزودن تگ متای noindex"
 
@@ -1119,7 +1119,7 @@ msgstr ""
 msgid "Boolean"
 msgstr "منطقی"
 
-#: packages/admin/src/components/SeoPanel.tsx:169
+#: packages/admin/src/components/SeoPanel.tsx:174
 msgid "Brief summary shown below the title in search results"
 msgstr "خلاصه کوتاهی که زیر عنوان در نتایج جستجو نمایش داده می‌شود"
 
@@ -1235,7 +1235,7 @@ msgstr "بخش‌های قالب قابل حذف نیستند"
 msgid "Cannot determine MIME type from URL. Use a URL ending in a recognized image extension (e.g. .jpg, .png, .webp)."
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:181
+#: packages/admin/src/components/SeoPanel.tsx:186
 msgid "Canonical URL"
 msgstr "آدرس کانونیکال"
 
@@ -3429,7 +3429,7 @@ msgstr ""
 msgid "hero, banner, cta"
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:191
+#: packages/admin/src/components/SeoPanel.tsx:196
 msgid "Hide from search engines"
 msgstr "مخفی‌کردن از موتورهای جستجو"
 
@@ -4279,7 +4279,7 @@ msgstr "فهرستها ({0})"
 msgid "Menus Manage"
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:165
+#: packages/admin/src/components/SeoPanel.tsx:170
 msgid "Meta Description"
 msgstr "توضیحات متا"
 
@@ -4908,7 +4908,7 @@ msgstr "اصلی:"
 msgid "Outline"
 msgstr "فهرست مطالب"
 
-#: packages/admin/src/components/SeoPanel.tsx:155
+#: packages/admin/src/components/SeoPanel.tsx:160
 msgid "Overrides the page title in search engine results"
 msgstr "عنوان صفحه را در نتایج موتورهای جستجو بازنویسی می‌کند"
 
@@ -5146,7 +5146,7 @@ msgstr "افزونه به‌روزرسانی شد"
 msgid "Plugins"
 msgstr "پلاگین‌ها"
 
-#: packages/admin/src/components/SeoPanel.tsx:182
+#: packages/admin/src/components/SeoPanel.tsx:187
 msgid "Points search engines to the original version of this page, if it's duplicated from another URL"
 msgstr "موتورهای جستجو را به نسخه اصلی این صفحه هدایت می‌کند، اگر از آدرس دیگری تکراری شده باشد"
 
@@ -6164,7 +6164,7 @@ msgstr "تنظیمات سئو (Yoast)"
 msgid "SEO settings saved"
 msgstr "تنظیمات سئو ذخیره شد"
 
-#: packages/admin/src/components/SeoPanel.tsx:154
+#: packages/admin/src/components/SeoPanel.tsx:159
 msgid "SEO Title"
 msgstr "عنوان سئو"
 

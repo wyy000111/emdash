@@ -261,7 +261,7 @@ msgid "{0}{1}"
 msgstr "{0}{1}"
 
 #. placeholder {0}: draft.description.length
-#: packages/admin/src/components/SeoPanel.tsx:168
+#: packages/admin/src/components/SeoPanel.tsx:173
 msgid "{0}/160 characters"
 msgstr "{0}/160 znaków"
 
@@ -648,7 +648,7 @@ msgstr "Dodaj nowy"
 msgid "Add new {0}"
 msgstr "Dodaj nowy {0}"
 
-#: packages/admin/src/components/SeoPanel.tsx:192
+#: packages/admin/src/components/SeoPanel.tsx:197
 msgid "Add noindex meta tag"
 msgstr "Dodaj meta tag noindex"
 
@@ -1117,7 +1117,7 @@ msgstr ""
 msgid "Boolean"
 msgstr "Boolean"
 
-#: packages/admin/src/components/SeoPanel.tsx:169
+#: packages/admin/src/components/SeoPanel.tsx:174
 msgid "Brief summary shown below the title in search results"
 msgstr "Krótkie podsumowanie wyświetlane pod tytułem w wynikach wyszukiwania"
 
@@ -1233,7 +1233,7 @@ msgstr "Nie można usunąć sekcji motywu"
 msgid "Cannot determine MIME type from URL. Use a URL ending in a recognized image extension (e.g. .jpg, .png, .webp)."
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:181
+#: packages/admin/src/components/SeoPanel.tsx:186
 msgid "Canonical URL"
 msgstr "Kanoniczny URL"
 
@@ -3427,7 +3427,7 @@ msgstr ""
 msgid "hero, banner, cta"
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:191
+#: packages/admin/src/components/SeoPanel.tsx:196
 msgid "Hide from search engines"
 msgstr "Ukryj przed wyszukiwarkami"
 
@@ -4277,7 +4277,7 @@ msgstr "Menu ({0})"
 msgid "Menus Manage"
 msgstr "Zarządzanie menu"
 
-#: packages/admin/src/components/SeoPanel.tsx:165
+#: packages/admin/src/components/SeoPanel.tsx:170
 msgid "Meta Description"
 msgstr "Meta opis"
 
@@ -4906,7 +4906,7 @@ msgstr "Oryginał:"
 msgid "Outline"
 msgstr "Konspekt"
 
-#: packages/admin/src/components/SeoPanel.tsx:155
+#: packages/admin/src/components/SeoPanel.tsx:160
 msgid "Overrides the page title in search engine results"
 msgstr "Nadpisuje tytuł strony w wynikach wyszukiwania"
 
@@ -5144,7 +5144,7 @@ msgstr "Plugin zaktualizowany"
 msgid "Plugins"
 msgstr "Pluginy"
 
-#: packages/admin/src/components/SeoPanel.tsx:182
+#: packages/admin/src/components/SeoPanel.tsx:187
 msgid "Points search engines to the original version of this page, if it's duplicated from another URL"
 msgstr "Wskazuje wyszukiwarkom oryginalną wersję tej strony, jeśli jest zduplikowana z innego URL"
 
@@ -6162,7 +6162,7 @@ msgstr "Ustawienia SEO (Yoast)"
 msgid "SEO settings saved"
 msgstr "Ustawienia SEO zapisane"
 
-#: packages/admin/src/components/SeoPanel.tsx:154
+#: packages/admin/src/components/SeoPanel.tsx:159
 msgid "SEO Title"
 msgstr "Tytuł SEO"
 

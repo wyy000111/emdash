@@ -261,7 +261,7 @@ msgid "{0}{1}"
 msgstr "{0}{1}"
 
 #. placeholder {0}: draft.description.length
-#: packages/admin/src/components/SeoPanel.tsx:168
+#: packages/admin/src/components/SeoPanel.tsx:173
 msgid "{0}/160 characters"
 msgstr "{0}/160 個字符"
 
@@ -648,7 +648,7 @@ msgstr "添加新內容"
 msgid "Add new {0}"
 msgstr "添加新{0}"
 
-#: packages/admin/src/components/SeoPanel.tsx:192
+#: packages/admin/src/components/SeoPanel.tsx:197
 msgid "Add noindex meta tag"
 msgstr "添加 noindex 元標籤"
 
@@ -1117,7 +1117,7 @@ msgstr ""
 msgid "Boolean"
 msgstr "布爾值"
 
-#: packages/admin/src/components/SeoPanel.tsx:169
+#: packages/admin/src/components/SeoPanel.tsx:174
 msgid "Brief summary shown below the title in search results"
 msgstr "在搜索結果中標題下方顯示簡短摘要"
 
@@ -1233,7 +1233,7 @@ msgstr "無法刪除主題區塊"
 msgid "Cannot determine MIME type from URL. Use a URL ending in a recognized image extension (e.g. .jpg, .png, .webp)."
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:181
+#: packages/admin/src/components/SeoPanel.tsx:186
 msgid "Canonical URL"
 msgstr "規範 URL"
 
@@ -3427,7 +3427,7 @@ msgstr ""
 msgid "hero, banner, cta"
 msgstr ""
 
-#: packages/admin/src/components/SeoPanel.tsx:191
+#: packages/admin/src/components/SeoPanel.tsx:196
 msgid "Hide from search engines"
 msgstr "對搜索引擎隱藏"
 
@@ -4277,7 +4277,7 @@ msgstr "菜單 ({0})"
 msgid "Menus Manage"
 msgstr "菜單管理"
 
-#: packages/admin/src/components/SeoPanel.tsx:165
+#: packages/admin/src/components/SeoPanel.tsx:170
 msgid "Meta Description"
 msgstr "Meta 描述"
 
@@ -4906,7 +4906,7 @@ msgstr "原始："
 msgid "Outline"
 msgstr "大綱"
 
-#: packages/admin/src/components/SeoPanel.tsx:155
+#: packages/admin/src/components/SeoPanel.tsx:160
 msgid "Overrides the page title in search engine results"
 msgstr "覆蓋搜索引擎結果中的頁面標題"
 
@@ -5144,7 +5144,7 @@ msgstr "插件已更新"
 msgid "Plugins"
 msgstr "插件"
 
-#: packages/admin/src/components/SeoPanel.tsx:182
+#: packages/admin/src/components/SeoPanel.tsx:187
 msgid "Points search engines to the original version of this page, if it's duplicated from another URL"
 msgstr "如果此頁面是從另一個 URL 複製的，則引導搜索引擎到原始版本"
 
@@ -6162,7 +6162,7 @@ msgstr "SEO 設置（Yoast）"
 msgid "SEO settings saved"
 msgstr "SEO 設置已保存"
 
-#: packages/admin/src/components/SeoPanel.tsx:154
+#: packages/admin/src/components/SeoPanel.tsx:159
 msgid "SEO Title"
 msgstr "SEO 標題"
 

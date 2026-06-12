@@ -261,7 +261,7 @@ msgid "{0}{1}"
 msgstr "{0}{1}"
 
 #. placeholder {0}: draft.description.length
-#: packages/admin/src/components/SeoPanel.tsx:168
+#: packages/admin/src/components/SeoPanel.tsx:173
 msgid "{0}/160 characters"
 msgstr "{0}/160 อักขระ"
 
@@ -648,7 +648,7 @@ msgstr "เพิ่มใหม่"
 msgid "Add new {0}"
 msgstr "เพิ่ม {0} ใหม่"
 
-#: packages/admin/src/components/SeoPanel.tsx:192
+#: packages/admin/src/components/SeoPanel.tsx:197
 msgid "Add noindex meta tag"
 msgstr "เพิ่มแท็ก meta noindex"
 
@@ -1117,7 +1117,7 @@ msgstr "ตัวหนา"
 msgid "Boolean"
 msgstr "บูลีน"
 
-#: packages/admin/src/components/SeoPanel.tsx:169
+#: packages/admin/src/components/SeoPanel.tsx:174
 msgid "Brief summary shown below the title in search results"
 msgstr "สรุปสั้น ๆ ที่แสดงใต้ชื่อในผลการค้นหา"
 
@@ -1233,7 +1233,7 @@ msgstr "ไม่สามารถลบส่วนของธีมได้
 msgid "Cannot determine MIME type from URL. Use a URL ending in a recognized image extension (e.g. .jpg, .png, .webp)."
 msgstr "ไม่สามารถระบุประเภท MIME จาก URL ได้ ใช้ URL ที่ลงท้ายด้วยนามสกุลรูปภาพที่รองรับ (เช่น .jpg, .png, .webp)"
 
-#: packages/admin/src/components/SeoPanel.tsx:181
+#: packages/admin/src/components/SeoPanel.tsx:186
 msgid "Canonical URL"
 msgstr "Canonical URL"
 
@@ -3427,7 +3427,7 @@ msgstr "แบนเนอร์ Hero"
 msgid "hero, banner, cta"
 msgstr "hero, banner, cta"
 
-#: packages/admin/src/components/SeoPanel.tsx:191
+#: packages/admin/src/components/SeoPanel.tsx:196
 msgid "Hide from search engines"
 msgstr "ซ่อนจากเครื่องมือค้นหา"
 
@@ -4277,7 +4277,7 @@ msgstr "เมนู ({0})"
 msgid "Menus Manage"
 msgstr "จัดการเมนู"
 
-#: packages/admin/src/components/SeoPanel.tsx:165
+#: packages/admin/src/components/SeoPanel.tsx:170
 msgid "Meta Description"
 msgstr "Meta Description"
 
@@ -4909,7 +4909,7 @@ msgstr "ต้นฉบับ:"
 msgid "Outline"
 msgstr "โครงร่าง"
 
-#: packages/admin/src/components/SeoPanel.tsx:155
+#: packages/admin/src/components/SeoPanel.tsx:160
 msgid "Overrides the page title in search engine results"
 msgstr "แทนที่ชื่อหน้าในผลการค้นหาของเครื่องมือค้นหา"
 
@@ -5147,7 +5147,7 @@ msgstr "อัปเดตปลั๊กอินแล้ว"
 msgid "Plugins"
 msgstr "ปลั๊กอิน"
 
-#: packages/admin/src/components/SeoPanel.tsx:182
+#: packages/admin/src/components/SeoPanel.tsx:187
 msgid "Points search engines to the original version of this page, if it's duplicated from another URL"
 msgstr "ชี้ให้เครื่องมือค้นหาไปยังเวอร์ชันต้นฉบับของหน้านี้ หากซ้ำกับ URL อื่น"
 
@@ -6165,7 +6165,7 @@ msgstr "การตั้งค่า SEO (Yoast)"
 msgid "SEO settings saved"
 msgstr "บันทึกการตั้งค่า SEO แล้ว"
 
-#: packages/admin/src/components/SeoPanel.tsx:154
+#: packages/admin/src/components/SeoPanel.tsx:159
 msgid "SEO Title"
 msgstr "ชื่อ SEO"
 

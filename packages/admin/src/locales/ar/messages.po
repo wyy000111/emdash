@@ -265,7 +265,7 @@ msgid "{0}{1}"
 msgstr "{0}{1}"
 
 #. placeholder {0}: draft.description.length
-#: packages/admin/src/components/SeoPanel.tsx:168
+#: packages/admin/src/components/SeoPanel.tsx:173
 msgid "{0}/160 characters"
 msgstr "{0}/160 حرف"
 
@@ -652,7 +652,7 @@ msgstr "إضافة جديد"
 msgid "Add new {0}"
 msgstr "إضافة {0} جديد"
 
-#: packages/admin/src/components/SeoPanel.tsx:192
+#: packages/admin/src/components/SeoPanel.tsx:197
 msgid "Add noindex meta tag"
 msgstr "إضافة علامة noindex الذاتية"
 
@@ -1121,7 +1121,7 @@ msgstr "عريض"
 msgid "Boolean"
 msgstr "منطقي"
 
-#: packages/admin/src/components/SeoPanel.tsx:169
+#: packages/admin/src/components/SeoPanel.tsx:174
 msgid "Brief summary shown below the title in search results"
 msgstr "ملخص مختصر يظهر أسفل العنوان في نتائج البحث"
 
@@ -1237,7 +1237,7 @@ msgstr "لا يمكن حذف أقسام المظهر"
 msgid "Cannot determine MIME type from URL. Use a URL ending in a recognized image extension (e.g. .jpg, .png, .webp)."
 msgstr "تعذّر تحديد نوع MIME من الرابط. استخدم رابطًا ينتهي بامتداد صورة معروف (مثل: .jpg, .png, .webp)."
 
-#: packages/admin/src/components/SeoPanel.tsx:181
+#: packages/admin/src/components/SeoPanel.tsx:186
 msgid "Canonical URL"
 msgstr "الرابط الأساسي"
 
@@ -3431,7 +3431,7 @@ msgstr "لافتة رئيسية"
 msgid "hero, banner, cta"
 msgstr "رئيسية، لافتة، دعوة للإجراء"
 
-#: packages/admin/src/components/SeoPanel.tsx:191
+#: packages/admin/src/components/SeoPanel.tsx:196
 msgid "Hide from search engines"
 msgstr "إخفاء من محركات البحث"
 
@@ -4281,7 +4281,7 @@ msgstr "القوائم ({0})"
 msgid "Menus Manage"
 msgstr "إدارة القوائم"
 
-#: packages/admin/src/components/SeoPanel.tsx:165
+#: packages/admin/src/components/SeoPanel.tsx:170
 msgid "Meta Description"
 msgstr "الوصف التعريفي"
 
@@ -4913,7 +4913,7 @@ msgstr "الأصلي:"
 msgid "Outline"
 msgstr "مخطط المستند"
 
-#: packages/admin/src/components/SeoPanel.tsx:155
+#: packages/admin/src/components/SeoPanel.tsx:160
 msgid "Overrides the page title in search engine results"
 msgstr "يَحل محل عنوان الصفحة في نتائج محركات البحث"
 
@@ -5151,7 +5151,7 @@ msgstr "تم تحديث الإضافة"
 msgid "Plugins"
 msgstr "الإضافات"
 
-#: packages/admin/src/components/SeoPanel.tsx:182
+#: packages/admin/src/components/SeoPanel.tsx:187
 msgid "Points search engines to the original version of this page, if it's duplicated from another URL"
 msgstr "يرشد محركات البحث إلى النسخة الأصلية من هذه الصفحة، إذا كانت مكررة من رابط آخر"
 
@@ -6169,7 +6169,7 @@ msgstr "إعدادات تحسين محركات البحث (Yoast)"
 msgid "SEO settings saved"
 msgstr "تم حفظ إعدادات تحسين محركات البحث"
 
-#: packages/admin/src/components/SeoPanel.tsx:154
+#: packages/admin/src/components/SeoPanel.tsx:159
 msgid "SEO Title"
 msgstr "عنوان تحسين محركات البحث"
 
